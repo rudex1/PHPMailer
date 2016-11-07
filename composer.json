@@ -1,21 +1,8 @@
-"require": {
-    "description":{
-        "proyecto mail/correo"
-    },
-    "autor":{
-        "name":{
-            "Edwin rudy sejas arze"
-        },
-        "email":{
-            "edwinrudysejasarze@gmail.com"
-        }
-    },
-    "require":{
-        "composer require phpmailer/phpmailer":{
-            "5.5.+"
-        }
-    },
-    "require": { 
-        "/path/to/PHPMailerAutoload.php'"
+{
+    "require": {
+        "phpmailer/phpmailer": "^5.2",
+        "twbs/bootstrap": "^3.3",
+        "components/jquery": "^3.1"
+        
     }
 }
